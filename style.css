@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #406481 !important;
+}
+
+
+.sub-div {
+  width: 50%;
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 40px 30px;
+  border-radius: 15px;
+  background-image: url('https://images.unsplash.com/photo-1499346030926-9a72daac6c63');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+
+.sub-div h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #333;
+}
+
+.wether-form input[type="search"],
+.wether-form input[type="submit"] {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid gray;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.wether-form input[type="submit"] {
+  background-color: #0077b6;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.wether-form input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.card-header {
+  font-weight: bold;
+}
+
+img.weather-icon {
+  width: 64px;
+  height: 64px;
+}
